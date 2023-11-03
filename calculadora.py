@@ -25,4 +25,7 @@ while True:
         resultado = dividir(primeiro_numero, segundo_numero)
     elif int(operacao) == 3:
         resultado = multiplicar(primeiro_numero, segundo_numero)
+    elif int(operacao) == 4:
+        resultado = subtrair(primeiro_numero, segundo_numero)
+
     print("Resultado: ",resultado,"\n")
