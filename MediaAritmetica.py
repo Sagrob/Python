@@ -1,3 +1,5 @@
+def media(a,b,c,d):
+    return (a+b+c+d)/4
 while True:
     try:
         n1 = float(input("Insira a primeira nota: "))
@@ -7,5 +9,6 @@ while True:
     except:
         print("Por favor, digite um número")
         continue
-    print("A média aritmética é", (n1 + n2 + n3 + n4)/4)
+    resultado = media(n1,n2,n3,n4)
+    print("A média aritmética é", resultado)
     break
