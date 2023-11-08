@@ -23,7 +23,9 @@ while True:
     
     if int(operacao) == 5:
         resultado = raiz(primeiro_numero)
-    
+        print("Resultado: ",resultado,"\n")
+        continue
+
     segundo_numero = int(input("Segundo numero: "))
 
     if int(operacao) == 1:
