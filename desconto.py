@@ -5,6 +5,6 @@ while True:
     except:
         print("Por favor, digite um número")
         continue
-resultado = (desconto / venda)*100
-print("O valor com desconto será: ", resultado)
-break
+        resultado = (desconto / venda)*100
+        print("O valor com desconto será: ", resultado)
+        break
